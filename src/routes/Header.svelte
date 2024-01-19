@@ -31,7 +31,9 @@
       </NavBrand>
       <NavHamburger />
       <NavUl>
-        <NavLi class="text-primary-1 text-lg font-medium" href="/messaging" >Messaging</NavLi>
+        <NavLi class="text-primary-1 text-lg font-medium" href="/message" active={true}
+          >Message</NavLi
+        >
         <NavLi class="text-primary-1 text-lg font-medium" href="/" active={true}
           >Become a Freelancer</NavLi
         >
