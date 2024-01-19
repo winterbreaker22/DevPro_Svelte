@@ -8,6 +8,12 @@
   import avatar6 from "$lib/images/Rectangle 98.png";
   import avatar7 from "$lib/images/Rectangle 99.png";
   import downArrow from "$lib/images/Vector.svg";
+ 
+  import { Button, ButtonGroup } from "flowbite-svelte";
+  import Suggestions from "../suggestions/+page.svelte";
+  import OrderDetails from "../orderdetails/+page.svelte";
+  import CuriousGeorge from "../curiousGeorge/+page.svelte";
+  
   let items = [
     {
       avatar: avatar1,
@@ -115,7 +121,9 @@
         </div>
       </div>
       <!-- detail -->
-      <div class="bg-primary-0 rounded-2xl min-h-[388px]"></div>
+      <div class="bg-primary-0 rounded-2xl min-h-[388px]">
+        <CuriousGeorge />
+      </div>
     </div>
 
     <!-- chat board -->
@@ -123,9 +131,13 @@
 
     <div class="w-1/4 min-h-[1300px] m-3">
       <!-- order -->
-      <div class="bg-primary-0 rounded-2xl mb-3 min-h-[650px]"></div>
+      <div class="bg-primary-0 rounded-2xl mb-3 min-h-[650px]">
+        <OrderDetails />
+      </div>
       <!-- suggestion -->
-      <div class="bg-primary-0 rounded-2xl min-h-[638px]"></div>
+      <div class="bg-primary-0 rounded-2xl min-h-[638px]">
+        <Suggestions />
+      </div>
     </div>
   </div>
 </div>

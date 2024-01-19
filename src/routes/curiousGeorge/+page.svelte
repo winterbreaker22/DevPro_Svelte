@@ -1,7 +1,7 @@
   
   <script>
     import { Listgroup, ListgroupItem, Button, Avatar } from 'flowbite-svelte';
-    import { SocialIcons } from 'flowbite';
+    // import { SocialIcons } from 'flowbite';
 
     const socialLinks = [
     { icon: 'facebook', url: 'https://facebook.com/yourpage' },
@@ -14,7 +14,6 @@
     <h3 class="p-1 text-center text-xl font-medium text-gray-900 dark:text-white">Suggestions</h3>
     <ListgroupItem class="text-base font-semibold gap-2">
       <h5 class="uppercase">Based in</h5>
-      <Avatar />
     </ListgroupItem>
     <ListgroupItem class="text-base font-semibold gap-2">
       <h5 class="uppercase">Skills</h5>
@@ -26,6 +25,6 @@
     </ListgroupItem>
     <ListgroupItem class="text-base font-semibold gap-2">
       <h5 class="uppercase">socials</h5>
-      <SocialIcons {links={socialLinks}} />
+     <!-- <SocialIcons {links={socialLinks}} /> -->
     </ListgroupItem>
   </Listgroup>
