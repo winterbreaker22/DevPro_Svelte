@@ -38,41 +38,57 @@
     ]
   </script>
   
-  <Listgroup active class="w-48">
-    <h3 class="p-1 text-center text-xl font-medium text-gray-900 dark:text-white">Suggestions</h3>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[0].title}</h5>
-      <p>{orderDetails[0].content}</p>
+  <Listgroup active class="w-100% border-none" style="background: #282828;">
+    <h3 class="p-3 text-xl font-medium text-gray-900" style="color: #FF8A00; font-size: 25px;">ORDER DETAILS</h3>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[0].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[0].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[1].title}</h5>
-      <p>{orderDetails[1].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[1].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[1].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[2].title}</h5>
-      <p>{orderDetails[2].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[2].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[2].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[3].title}</h5>
-      <p>{orderDetails[3].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[3].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[3].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[4].title}</h5>
-      <p>{orderDetails[4].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[4].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[4].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[5].title}</h5>
-      <p>{orderDetails[5].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[5].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[5].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[6].title}</h5>
-      <p>{orderDetails[6].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[6].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[6].content}</p>
+      </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2">
-      <h5 class="uppercase">{orderDetails[7].title}</h5>
-      <p>{orderDetails[7].content}</p>
+    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+      <div>
+        <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[7].title}</h5>
+        <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[7].content}</p>
+      </div>
     </ListgroupItem>
-    <a href="/" class="flex items-center p-3 text-sm font-medium text-red-600 bg-gray-50 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-red-500 hover:underline rounded-b-lg">
-      ORDER AGAIN
-    </a>
+    <div class="grid border-none place-items-center" style="padding: 16px;">
+      <Button class="mt-30px" style="width: 100%; color: white; font-size: 20px; background: #FF8A00;">ORDER AGAIN</Button>
+    </div>
   </Listgroup>

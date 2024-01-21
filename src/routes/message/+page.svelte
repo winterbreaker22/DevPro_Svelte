@@ -9,7 +9,6 @@
   import avatar7 from "$lib/images/Rectangle 99.png";
   import downArrow from "$lib/images/Vector.svg";
  
-  import { Button, ButtonGroup } from "flowbite-svelte";
   import Suggestions from "../suggestions/+page.svelte";
   import OrderDetails from "../orderdetails/+page.svelte";
   import CuriousGeorge from "../curiousGeorge/+page.svelte";
