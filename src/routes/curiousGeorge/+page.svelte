@@ -21,31 +21,31 @@
   
   <Listgroup active class="w-100% border-none" style="background: #282828;">
     <h3 class="p-3 text-xl font-medium text-gray-900 uppercase" style="color: #FF8A00; font-size: 20px;">About Curious George</h3>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white">{curious[0].title}</h5>
         <img src={Us_flag} alt="Flag">
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white">{curious[1].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{curious[1].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white">{curious[2].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{curious[2].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white">{curious[3].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{curious[3].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white">{curious[4].title}</h5>
         <img src={Youtube} alt="youtube" style="display: inline; padding: 5px; padding-left: 0;"/>

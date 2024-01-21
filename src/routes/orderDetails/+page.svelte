@@ -40,49 +40,49 @@
   
   <Listgroup active class="w-100% border-none" style="background: #282828;">
     <h3 class="p-3 text-xl font-medium text-gray-900" style="color: #FF8A00; font-size: 25px;">ORDER DETAILS</h3>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[0].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[0].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[1].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[1].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[2].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[2].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[3].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[3].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[4].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[4].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[5].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[5].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[6].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[6].content}</p>
       </div>
     </ListgroupItem>
-    <ListgroupItem class="text-base font-semibold gap-2 border-none">
+    <ListgroupItem class="text-base font-semibold gap-2 border-none hover:bg-primary-1">
       <div>
         <h5 class="uppercase" style="font-size: 17px; color: white;">{orderDetails[7].title}</h5>
         <p style="font-size: 10px; color: white; opacity: 60%;">{orderDetails[7].content}</p>
